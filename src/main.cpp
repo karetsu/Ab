@@ -29,8 +29,8 @@ const uint8_t mode[4] { 0, 1, 2, 3 };
 uint8_t notesTime[NUM_BUTTONS];
 uint8_t pressedButtons = 0x00;
 uint8_t previousButtons = 0x00;
-uint8_t activeMode = 0;
-uint8_t previousMode = 0;
+uint8_t activeMode = 0x00;
+uint8_t previousMode = 0x00;
 
 // TODO: make this shift the values by NUM_BUTTONS with the mode change;
 uint8_t notePitches[NUM_BUTTONS];
@@ -47,7 +47,6 @@ void setup() {
 
 void loop() {
   readButtons();
-  notePitches = updatePitches(notePitches);
   playNotes();
 }
 
