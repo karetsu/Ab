@@ -19,7 +19,7 @@ I am aiming to turn an arduino mega rev3 into a midi controller over the USB por
 
 
 ** Implementation [0/0]
-
+- [ ] maintain a diary, might as well blog about it :)
 
 * Design
 
@@ -40,12 +40,12 @@ Design material to be poplar sheets, sandwiched to height.
   - what would suit alice?
 
 
-* TODO Immediate Tasks [2/5]
+* TODO Immediate Tasks [3/5]
   - [X] contact acrylic cutters for quotes
-  - [ ] consider methods for embossing/bevel
+  - [ ] consider methods for routing/bevel
     - can I hire a router?
     - does Chris have one?
     - if I'm going to do this then I need to also design these
   - [X] shall I just get plain sheets and cut them myself?
-  - [ ] investigate acrylic glues
+  - [X] investigate acrylic glues
   - [ ] create a list for the required pieces
