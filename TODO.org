@@ -1,0 +1,51 @@
+#+TITLE: Ab MIDI controller
+#+AUTHOR: aloysius
+
+I am aiming to turn an arduino mega rev3 into a midi controller over the USB port with no need for any additional serial cables.
+
+* PROJ work
+** Purchase [1/3]
+ - [X]  [[https://store.arduino.cc/arduino-mega-2560-rev3][board]]
+ - [ ] [[https://www.arcadeworlduk.com/products/qanba-24mm-translucent-snap-in-arcade-button.html][28 buttons]]
+ - [ ] housing
+
+ 
+** Design [0/5]
+- [ ] enclosure
+- [ ] dimensions
+- [ ] materials
+- [ ] button placements
+- [ ] connectors (neutrik?)
+
+
+** Implementation [0/0]
+
+
+* Design
+
+Basic ideas for the machine:
+
+- 6 rows of 4 buttons
+  + this makes each row a perfect 5th
+  + e.g. C major is (1,1) + (1,3) + (2,1) and patterns become nice
+- 4 mode switches
+- 0 potentiometers/analogue?
+
+
+Design material to be poplar sheets, sandwiched to height.
+- How can we make sure there is enough heft to it?
+  - embed some weight in one of the layers?
+- What colour/finish do we want on it?
+  - can I go all out on a design?
+  - what would suit alice?
+
+
+* TODO Immediate Tasks [2/5]
+  - [X] contact acrylic cutters for quotes
+  - [ ] consider methods for embossing/bevel
+    - can I hire a router?
+    - does Chris have one?
+    - if I'm going to do this then I need to also design these
+  - [X] shall I just get plain sheets and cut them myself?
+  - [ ] investigate acrylic glues
+  - [ ] create a list for the required pieces
