@@ -31,6 +31,9 @@ Basic ideas for the machine:
 - 4 mode switches
 - 0 potentiometers/analogue?
 
+- all buttons are to have LEDs in them wired in as per fighting
+   stick (on the non-ground pin of the button - see [[https://app.getpocket.com/read/3093475042][here]]).
+
 
 Design material to be poplar sheets, sandwiched to height.
 - How can we make sure there is enough heft to it?
