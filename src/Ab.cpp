@@ -105,7 +105,7 @@ void readOrientation() {
 void setup() {
   for (int i = 0; i < NUM_BUTTONS; i++) {
     buttons[i] = buttonsP[i];
-    pinMode(buttons[i], INPUT_PULLUP); // reduces the need for resistors
+    pinMode(buttons[i], INPUT_PULLUP);
   }
 
   for (int i = 0; i < MODES; i++) {
